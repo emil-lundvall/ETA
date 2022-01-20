@@ -1,1 +1,93 @@
+.team-text-inner-container h1 {
+  color: white;
+  font-size: 40px;
+}
 
+.team-text-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.team-text-under {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.team-text-under p {
+  color: #d8d8d8;
+  font-size: 20px;
+  width: 700px;
+  text-align: center;
+}
+
+.team-text-container b {
+  color: #1541d1;
+}
+
+.team-staff-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.team-staff-inner-container {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-staff-item {
+  background-color: #030914;
+  border: solid 2px #071020;
+  border-radius: 13px;
+  padding: 15px;
+  width: 300px;
+}
+
+.staff-row-one {
+}
+
+.staff-row-two {
+}
+
+.staff-row-three {
+}
+
+.staff-img {
+}
+
+.staff-row-two h1 {
+  color: #ffffff;
+
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.staff-row-two p {
+  color: #ffffff;
+  opacity: 70%;
+
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.social-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #071020;
+  border-radius: 100%;
+}
+
+.social-item .active-social {
+  background-color: #1541d1 !important;
+}
