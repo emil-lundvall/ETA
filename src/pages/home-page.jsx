@@ -1,20 +1,20 @@
-import React, {useState, useEffect} from 'react';
-import './../src/index.css';
-import './css/component.css';
-import './css/point.css';
-import './css/sticky-header.css';
-import Home from './components/home';
-import Team from './components/team';
-import Services from './components/services';
-import Review from './components/review';
-import Projects from './components/projects';
-import Contact from './components/contact';
+import React from 'react';
+import './../../src/index.css';
+import './../css/component.css';
+import './../css/point.css';
+import './../css/sticky-header.css';
+import Home from '../components/home';
+import Team from '../components/team';
+import Services from '../components/services';
+import Review from '../components/review';
+import Projects from '../components/projects';
+import Contact from '../components/contact';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import './javascript/headerEffect.js';
+import '../javascript/headerEffect.js';
 
-function Website() {
+function Homepage() {
   return (
-    <div className="Website">
+    <div className="home-page">
       <div className="header-container">
         <div className="header-inner-container">
           <div className="header-logo">
@@ -54,4 +54,4 @@ function Website() {
   );
 }
 
-export default Website;
+export default Homepage;

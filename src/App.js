@@ -4,7 +4,7 @@ import './css/component.css';
 import './css/point.css';
 import './css/sticky-header.css';
 import Loading from './components/loading';
-import Website from './Website'
+import Homepage from './pages/home-page'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
@@ -12,13 +12,13 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2800);
+    }, 3500);
   })
   return (
     <div className="App">
       {isLoading==true?
         <Loading />:
-        <Website />
+        <Homepage />
       }
     </div>
   );
