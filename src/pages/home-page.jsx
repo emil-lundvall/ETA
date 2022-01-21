@@ -18,7 +18,7 @@ function Homepage() {
       <div className="header-container">
         <div className="header-inner-container">
           <div className="header-logo">
-            <h1>E-BrokR</h1>
+            <h1>ESPORT AGENCY</h1>
           </div>
           <div className="header-nav-bar">
             <ul>
