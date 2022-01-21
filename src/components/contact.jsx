@@ -67,22 +67,10 @@ function contact() {
                 <div className="footer-upper-container">
                     <div className="footer-upper-inner-container">
                         <div className="footer-section-one">
-                            <div className="location-container">
-                                <h1>Adressvägen 2B</h1> 
-                                <h1>Stockholm</h1> 
-                            </div>
-                        </div> 
-                        <div className="footer-section-two">
-                            <div className="social-container">
+                            <div className="social-container-footer">
                                 <a className="social-item"><i className="bi bi-instagram"></i></a> 
                                 <a className="social-item"><i className="bi bi-facebook"></i></a> 
                                 <a className="social-item"><i className="bi bi-linkedin"></i></a> 
-                            </div>
-                        </div> 
-                        <div className="footer-section-three">
-                            <div className="footer-contact-container">
-                                <h1>Contact</h1> 
-                                <h1>contact@e-sportagency.com</h1> 
                             </div>
                         </div> 
                     </div>

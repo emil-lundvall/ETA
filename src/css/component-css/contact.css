@@ -184,27 +184,15 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 100%;
 }
 
-.footer-section-two {
+.social-container-footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-}
-
-.footer-section-three {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-}
-
-.social-container {
-  display: flex;
+  justify-content: space-between;
   padding-left: 0;
   margin-bottom: 0;
+  width: 10%;
 }
 
 .social-item {
@@ -217,16 +205,6 @@ button {
   color: white;
   opacity: 0.75;
   border: none;
-}
-
-.location-container h1 {
-  font-size: 16px;
-  color: #e3e3e3;
-}
-
-.footer-contact-container h1 {
-  font-size: 16px;
-  color: #e3e3e3;
 }
 
 .copyright-footer {
