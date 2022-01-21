@@ -19,34 +19,38 @@ function team() {
                     <div className="team-staff-inner-container">
                         <div className="team-staff-item">
                             <div className="staff-row-one">
-                                <div className="staff-img"></div>
+                                <div className="staff-img" id="staff-two"></div>
                             </div>
                             <div className="staff-row-two">
-                                <h1>Emil Lundvall</h1>
-                                <p>Ägare</p>
+                                <div className="row-two-inner-container-text">
+                                    <h1>Emil Lundvall</h1>
+                                    <p>Ägare</p>
+                                </div>
                             </div>
                             <div className="staff-row-three">
                                 <div className="social-container">
-                                    <div className="social-item" id="instagram"><a><i></i></a></div>
-                                    <div className="social-item" id="linkedin"><a><i></i></a></div>
-                                    <div className="social-item" id="facebook"><a><i></i></a></div>
+                                    <a className="social-item" id="instagram"><i class="bi bi-instagram"></i></a>
+                                    <a className="social-item active-social" id="linkedin"><i class="bi bi-linkedin"></i></a>
+                                    <a className="social-item" id="facebook"><i class="bi bi-facebook"></i></a>
                                 </div>
                             </div>
                         </div>
 
                         <div className="team-staff-item">
                             <div className='staff-row-one'>
-                                <div className="staff-img"></div>
+                                <div className="staff-img" id="staff-one"></div>
                             </div>
                             <div className="staff-row-two">
-                                <h1>Noah Karlberg</h1>
-                                <p>Del-ägare</p>
+                                <div className="row-two-inner-container-text">
+                                    <h1>Noah Karlberg</h1>
+                                    <p>Del-ägare</p>
+                                </div>
                             </div>
                             <div className="staff-row-three">
                                 <div className="social-container">
-                                    <div className="social-item" id="instagram"><a><i></i></a></div>
-                                    <div className="social-item active-social" id="linkedin"><a><i></i></a></div>
-                                    <div className="social-item" id="facebook"><a><i></i></a></div>
+                                    <a className="social-item" id="instagram"><i class="bi bi-instagram"></i></a>
+                                    <a className="social-item active-social" id="linkedin"><i class="bi bi-linkedin"></i></a>
+                                    <a className="social-item" id="facebook"><i class="bi bi-facebook"></i></a>
                                 </div>
                             </div>
                         </div>
