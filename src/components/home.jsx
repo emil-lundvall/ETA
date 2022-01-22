@@ -10,15 +10,15 @@ function home() {
             <div className="default-inner-section-home">
                 <div className="home-left-container">
                     <div className="home-text-container">
-                        <h1>Welcome to E-BrokR, the new modern way to make your company grow<b>.</b></h1>
+                        <h1>Welcome to E-Sport Agency, the modern way to make your company grow<b>.</b></h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry. Lorem Ipsum has been the industry's standard dummy
                         text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <div className="home-buttons-container">
-                        <a className="help-btn">How we can help you<i></i></a>
-                        <a className="contact-btn">Contact us<i></i></a>
+                        <a className="help-btn">How we can help you ><i></i></a>
+                        <a className="contact-btn">Contact us ><i></i></a>
                     </div>
                 </div>
                 <div className="home-right-container">

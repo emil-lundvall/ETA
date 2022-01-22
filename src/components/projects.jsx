@@ -29,7 +29,7 @@ function projects() {
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
                             <div className="button-view-more">
-                                <a>View case details<li></li></a>
+                                <a>View case details ><li></li></a>
                             </div>
                         </div>
                         <div className="project-grid-item prjct-two">
@@ -44,7 +44,7 @@ function projects() {
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
                             <div className="button-view-more">
-                                <a>View case details<li></li></a>
+                                <a>View case details ><li></li></a>
                             </div>
                         </div>
                         <div className="project-grid-item">
@@ -59,7 +59,7 @@ function projects() {
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
                             <div className="button-view-more">
-                                <a>View case details<li></li></a>
+                                <a>View case details ><li></li></a>
                             </div>
                         </div>
                         <div className="project-grid-item">
@@ -74,7 +74,7 @@ function projects() {
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
                             <div className="button-view-more">
-                                <a>View case details<li></li></a>
+                                <a>View case details ><li></li></a>
                             </div>
                         </div>
                         <div className="project-grid-item">
@@ -89,7 +89,7 @@ function projects() {
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
                             <div className="button-view-more">
-                                <a>View case details<li></li></a>
+                                <a>View case details ><li></li></a>
                             </div>
                         </div>
                         <div className="project-grid-item">
@@ -104,7 +104,7 @@ function projects() {
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
                             <div className="button-view-more">
-                                <a>View case details<li></li></a>
+                                <a>View case details ><li></li></a>
                             </div>
                         </div>
                     </div>

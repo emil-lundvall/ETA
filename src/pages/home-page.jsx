@@ -24,8 +24,8 @@ function Homepage() {
             <ul>
               <li><a data-scroll-nav="0" href="#" className="active2">Home</a></li>
               <li><a data-scroll-nav="1" href="#">About</a></li>
-              <li><a data-scroll-nav="2" href="#">Costumers</a></li>
-              <li><a data-scroll-nav="3" href="#">Projects</a></li>
+              <li><a data-scroll-nav="2" href="#">Projects</a></li>
+              <li><a data-scroll-nav="3" href="#">Costumers</a></li>
               <li><a data-scroll-nav="4" href="#">Our Team</a></li>
               <li><a data-scroll-nav="5" href="#">Contact</a></li>
             </ul>

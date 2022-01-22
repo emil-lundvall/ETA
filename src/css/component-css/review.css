@@ -1,7 +1,127 @@
 .review {
   background-color: #050e1e;
   z-index: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .inner-section-review {
+  width: 90%;
+  display: flex;
+  height: 100vh;
+}
+
+.left-review-text-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.lr-inner-container h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.lr-inner-container b {
+  color: #1541d1;
+}
+
+.lr-inner-container p {
+  color: #d8d8d8;
+  font-size: 20px;
+  width: 750px;
+}
+
+.lr-btn-container {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+
+.lr-btn-container a {
+  font-size: 17px;
+  border: solid 2px #1541d1;
+  border-radius: 13px;
+  background-color: #1541d1;
+  padding: 5px 25px 5px 25px;
+  cursor: pointer;
+}
+
+.right-reviews-container {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rr-inner-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.rr-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 3fr));
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+  width: 100%;
+}
+
+.rr-grid-item {
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 13px;
+}
+
+.rr-g-type-one {
+  background-color: #040a13;
+}
+
+.rr-g-type-two {
+  background-color: #364f7b;
+}
+
+.rr-g-type-three {
+  background-color: #1541d1;
+}
+
+.rr-grid-inner p {
+  font-size: 15px;
+}
+
+.rr-grid-company {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.rr-grid-avatar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.rr-grid-avatar-item {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: solid 2px white;
+  background-image: url(./../../images/team-member-1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.rr-grid-company-info {
+}
+
+.rr-grid-company-info h1 {
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.rr-grid-company-info p {
+  font-size: 13px;
+}
+
+#rr-grid-four {
 }
