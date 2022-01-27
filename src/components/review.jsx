@@ -28,7 +28,7 @@ function review() {
 
                             <div className="rr-grid-item rr-g-type-two" id="rr-grid-four">
                                 <div className="rr-grid-inner">
-                                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type."</p>
+                                    <p></p>
                                     <div className="rr-grid-company">
                                         <div className="rr-grid-avatar">
                                             <div className="rr-grid-avatar-item"></div>
@@ -42,7 +42,7 @@ function review() {
                             </div> {/* gray blue grid item, comment focus */}
                             <div className="rr-grid-item rr-g-type-two" id="rr-grid-five">
                                 <div className="rr-grid-inner">
-                                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type."</p>
+                                    <p></p>
                                     <div className="rr-grid-company">
                                         <div className="rr-grid-avatar">
                                             <div className="rr-grid-avatar-item"></div>
@@ -58,7 +58,7 @@ function review() {
 
                             <div className="rr-grid-item rr-g-type-three" id="rr-grid-seven">
                                 <div className="rr-grid-inner">
-                                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type."</p>
+                                    <p></p>
                                     <div className="rr-grid-company">
                                         <div className="rr-grid-avatar">
                                             <div className="rr-grid-avatar-item"></div>
@@ -72,7 +72,7 @@ function review() {
                             </div> {/* blue main focis comment grid */}
                             <div className="rr-grid-item rr-g-type-two" id="rr-grid-eight">
                                 <div className="rr-grid-inner">
-                                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type."</p>
+                                    <p></p>
                                     <div className="rr-grid-company">
                                         <div className="rr-grid-avatar">
                                             <div className="rr-grid-avatar-item"></div>
@@ -88,7 +88,7 @@ function review() {
 
                             <div className="rr-grid-item rr-g-type-two" id="rr-grid-ten">
                                 <div className="rr-grid-inner">
-                                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type."</p>
+                                    <p></p>
                                     <div className="rr-grid-company">
                                         <div className="rr-grid-avatar">
                                             <div className="rr-grid-avatar-item"></div>
@@ -102,7 +102,7 @@ function review() {
                             </div> {/* gray blue grid item, comment focus */}
                             <div className="rr-grid-item rr-g-type-two" id="rr-grid-eleven">
                                 <div className="rr-grid-inner">
-                                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type."</p>
+                                    <p></p>
                                     <div className="rr-grid-company">
                                         <div className="rr-grid-avatar">
                                             <div className="rr-grid-avatar-item"></div>

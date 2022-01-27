@@ -61,10 +61,12 @@
 
 .rr-grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(13rem, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(1rem, 1fr));
   grid-gap: 20px;
   grid-auto-flow: dense;
   width: 100%;
+  height: 100%;
 }
 
 .rr-grid-item {
@@ -83,6 +85,7 @@
 
 .rr-g-type-three {
   background-color: #1541d1;
+  grid-column: 1 / 2;
 }
 
 .rr-grid-inner p {
@@ -123,5 +126,73 @@
   font-size: 13px;
 }
 
+/* Column size */
+
+#rr-grid-one {
+  /* Dark one */
+  border-radius: 0px 0px 13px 13px;
+}
+
+#rr-grid-two {
+  /* Dark one */
+  border-radius: 0px 0px 13px 13px;
+}
+
+#rr-grid-three {
+  /* Dark one */
+  border-radius: 0px 0px 0px 13px;
+}
+
 #rr-grid-four {
+  /* Normal comment */
+}
+
+#rr-grid-five {
+  /* Normal comment */
+}
+
+#rr-grid-six {
+  /* Dark one */
+  border-radius: 13px 0px 0px 13px;
+}
+
+#rr-grid-seven {
+  /* Normal comment */
+}
+
+#rr-grid-eight {
+  /* Normal comment */
+}
+
+#rr-grid-nine {
+  /* Dark one */
+  border-radius: 13px 0px 0px 13px;
+}
+
+#rr-grid-ten {
+  /* Normal comment */
+}
+
+#rr-grid-eleven {
+  /* Focus comment */
+}
+
+#rr-grid-twelve {
+  /* Dark one */
+  border-radius: 13px 0px 0px 13px;
+}
+
+#rr-grid-thirteen {
+  /* Dark one */
+  border-radius: 13px 13px 0px 0px;
+}
+
+#rr-grid-fourteen {
+  /* Dark one */
+  border-radius: 13px 13px 0px 0px;
+}
+
+#rr-grid-fifteen {
+  /* Dark one */
+  border-radius: 13px 0px 0px 0px;
 }

@@ -17,8 +17,8 @@ function home() {
                         of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <div className="home-buttons-container">
-                        <a className="help-btn">How we can help you ><i></i></a>
-                        <a className="contact-btn">Contact us ><i></i></a>
+                        <a className="help-btn">Talents  ><i></i></a>
+                        <a className="contact-btn">Company ><i></i></a>
                     </div>
                 </div>
                 <div className="home-right-container">

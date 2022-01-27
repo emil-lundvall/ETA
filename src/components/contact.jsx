@@ -2,9 +2,11 @@ import React from 'react';
 import './../../src/css/component.css';
 import './../scroll-it/scrollIt.js';
 import './../css/component-css/contact.css';
+import ContactUs from './ContactUs.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-function contact() {
+function Contact() {
+
     return (
         <div className="default-section-contact" data-scroll-index="5">
             <div className="contact-container">
@@ -20,17 +22,17 @@ function contact() {
                                 <div className="cl-contact-info-inner-container">
                                     <a className="cl-contact-item">
                                         <i class="bi bi-telephone-fill"></i>
-                                        <p>+46 70-123 45 67</p>
+                                        <p>+46 76-127 01 02</p>
                                     </a>
 
                                     <a className="cl-contact-item">
                                         <i class="bi bi-envelope-fill"></i>
-                                        <p>contact@e-sportagency.com</p>
+                                        <p>info@e-sportagency.com</p>
                                     </a>
 
                                     <a className="cl-contact-item">
                                         <i class="bi bi-geo-alt-fill"></i>
-                                        <p>Sweden, Stockholm</p>
+                                        <p>Uddvägen 28A, Lidingö</p>
                                     </a>
                                 </div>
                             </div>
@@ -44,21 +46,7 @@ function contact() {
 
                     <div className="contact-right">
                         <div className="cr-form-container">
-                            <form actions="/action_form.php">
-                                <label for="f-name">Your name</label>
-                                <input name="f-name" type="text"></input>
-
-                                <label for="f-mail">Mail</label>
-                                <input name="f-mail" type="email"></input>
-
-                                <label for="f-company">Company</label>
-                                <input name="f-company" type="text"></input>
-
-                                <label for="f-message">Message</label>
-                                <textarea name="f-message" type="text" id="message-box"></textarea>
-
-                                <button type="submit">Send message</button>
-                            </form>
+                            <ContactUs />
                         </div>
                     </div>
                 </div>
@@ -80,7 +68,7 @@ function contact() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default contact
+export default Contact
