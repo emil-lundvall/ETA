@@ -1,9 +1,9 @@
 import React from 'react';
-import './../../src/css/component.css';
-import './../scroll-it/scrollIt.js';
-import './../css/component-css/projects.css';
+import './../../../src/css/component.css';
+import '../../scroll-it/scrollIt.js';
+import './../../css/home-page/cases.css';
 
-function projects() {
+function cases() {
     return (
         <div className="default-section projects" data-scroll-index="2">
             <div className="default-inner-section">
@@ -114,4 +114,4 @@ function projects() {
     )
 }
 
-export default projects
+export default cases

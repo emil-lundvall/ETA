@@ -1,12 +1,9 @@
 .review {
   background-color: #050e1e;
   z-index: 1;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .inner-section-review {
-  width: 90%;
   display: flex;
   height: 100vh;
 }

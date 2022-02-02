@@ -3,8 +3,8 @@ import './../src/index.css';
 import './css/component.css';
 import './css/point.css';
 import './css/sticky-header.css';
-import Homepage from './pages/home-page';
-import Loading from './components/loading';
+import Homepage from './pages/homePage';
+import Loading from './components/Loader/loading';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {

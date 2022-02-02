@@ -13,7 +13,7 @@
 .header-inner-container {
   display: flex;
   justify-content: space-between;
-  width: 85vw;
+  width: 90vw;
 }
 
 .header-nav-bar {
@@ -28,7 +28,7 @@
 }
 
 .header-nav-bar ul li {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .header-nav-bar ul li a {
@@ -57,10 +57,16 @@
   align-items: center;
 }
 
+.header-logo img {
+  width: 25px;
+  height: auto;
+  margin-right: 15px;
+  transition: 0.8s;
+}
+
 .header-logo h1 {
-  font-style: italic;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 25px;
   color: white;
   line-height: 24px;
   margin-bottom: 0;
@@ -80,5 +86,11 @@
 }
 
 .headerEffect > .header-inner-container > .header-logo h1 {
-  font-size: 28px;
+  font-size: 20px;
+}
+
+.headerEffect > .header-inner-container > .header-logo img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
 }

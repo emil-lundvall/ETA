@@ -27,16 +27,21 @@ a {
 
 .website-container {
   height: 100vh;
+  min-height: 930px;
   width: 100%;
 }
 
 .default-section {
-  height: 100vh;
-  min-height: 1080px;
-  min-height: 800px;
+  min-height: 100vh;
+  min-height: 930px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.default-section-contact {
+  min-height: 100vh;
+  min-height: 1080px;
 }
 
 .default-inner-section {
@@ -58,4 +63,17 @@ a {
 
 .review {
   z-index: 1;
+}
+
+.disable {
+  display: none;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1600px) {
+  .default-inner-section {
+    min-width: 1200px;
+    width: 95%;
+    max-width: 1600px;
+  }
 }

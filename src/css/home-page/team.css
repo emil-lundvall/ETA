@@ -48,23 +48,14 @@
   border-radius: 13px;
   padding: 25px;
   width: 320px;
-  height: 420px;
 }
 
 .staff-row-one {
-  height: 70%;
   display: flex;
   align-items: center;
 }
 
 .staff-row-two {
-  height: 20%;
-  display: flex;
-  align-items: center;
-}
-
-.staff-row-three {
-  height: 10%;
   display: flex;
   align-items: center;
 }
@@ -74,8 +65,9 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 260px;
   border-radius: 13px;
+  margin-bottom: 15px;
 }
 
 #staff-one {

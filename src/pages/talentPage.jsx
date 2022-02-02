@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Talentpage() {
+function talentPage() {
     return (
       <div className="talent-page">
 
@@ -8,4 +8,4 @@ function Talentpage() {
     );
   }
   
-  export default Talentpage;
+  export default talentPage;

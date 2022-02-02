@@ -1,11 +1,11 @@
 import React from 'react';
-import './../../src/css/component.css';
-import './../scroll-it/scrollIt.js';
-import './../css/component-css/team.css';
+import './../../../src/css/component.css';
+import '../../scroll-it/scrollIt.js';
+import './../../css/home-page/team.css';
 
 function team() {
     return (
-        <div className="default-section team" data-scroll-index="4">
+        <div className="default-section team" data-scroll-index="5">
             <div className="default-inner-section">
                 <div className="team-text-container">
                     <div className="team-text-title">
@@ -24,14 +24,12 @@ function team() {
                             <div className="staff-row-two">
                                 <div className="row-two-inner-container-text">
                                     <h1>Emil Lundvall</h1>
-                                    <p>CEO</p>
+                                    <p>Partner & Founder</p>
                                 </div>
                             </div>
                             <div className="staff-row-three">
-                                <div className="social-container">
-                                    <a className="social-item" id="instagram"><i class="bi bi-instagram"></i></a>
-                                    <a className="social-item active-social" id="linkedin"><i class="bi bi-linkedin"></i></a>
-                                    <a className="social-item" id="facebook"><i class="bi bi-facebook"></i></a>
+                                <div className="email-container">
+
                                 </div>
                             </div>
                         </div>
@@ -43,14 +41,12 @@ function team() {
                             <div className="staff-row-two">
                                 <div className="row-two-inner-container-text">
                                     <h1>Noah Karlberg</h1>
-                                    <p>Deputy CEO</p>
+                                    <p>Partner & Founder</p>
                                 </div>
                             </div>
                             <div className="staff-row-three">
-                                <div className="social-container">
-                                    <a className="social-item" id="instagram"><i class="bi bi-instagram"></i></a>
-                                    <a className="social-item active-social" id="linkedin"><i class="bi bi-linkedin"></i></a>
-                                    <a className="social-item" id="facebook"><i class="bi bi-facebook"></i></a>
+                                <div className="email-container">
+
                                 </div>
                             </div>
                         </div>
@@ -62,14 +58,12 @@ function team() {
                             <div className="staff-row-two">
                                 <div className="row-two-inner-container-text">
                                     <h1>Martin Lundvall</h1>
-                                    <p>Copartner</p>
+                                    <p>Advisor & Co-Founder</p>
                                 </div>
                             </div>
                             <div className="staff-row-three">
-                                <div className="social-container">
-                                    <a className="social-item" id="instagram"><i class="bi bi-instagram"></i></a>
-                                    <a className="social-item active-social" id="linkedin"><i class="bi bi-linkedin"></i></a>
-                                    <a className="social-item" id="facebook"><i class="bi bi-facebook"></i></a>
+                                <div className="email-container">
+
                                 </div>
                             </div>
                         </div>

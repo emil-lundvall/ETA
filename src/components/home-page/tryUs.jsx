@@ -1,14 +1,14 @@
 import React from 'react';
-import './../../src/css/component.css';
-import './../scroll-it/scrollIt.js';
-import './../css/component-css/contact.css';
-import ContactUs from './ContactUs.js';
+import './../../../src/css/component.css';
+import './../../scroll-it/scrollIt.js';
+import './../../css/home-page/tryUs.css';
+import ContactUs from '../../javascript/ContactUs.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-function Contact() {
+function tryUs() {
 
     return (
-        <div className="default-section-contact" data-scroll-index="5">
+        <div className="default-section-contact" data-scroll-index="6">
             <div className="contact-container">
                 <div className="contact-inner-container">
                     <div className="contact-left">
@@ -54,13 +54,7 @@ function Contact() {
             <div className="footer-container">
                 <div className="footer-upper-container">
                     <div className="footer-upper-inner-container">
-                        <div className="footer-section-one">
-                            <div className="social-container-footer">
-                                <a className="social-item"><i className="bi bi-instagram"></i></a> 
-                                <a className="social-item"><i className="bi bi-facebook"></i></a> 
-                                <a className="social-item"><i className="bi bi-linkedin"></i></a> 
-                            </div>
-                        </div> 
+                        <i>"Quote here"</i>
                     </div>
                 </div>
                 <div className="copyright-footer">
@@ -71,4 +65,4 @@ function Contact() {
     );
 }
 
-export default Contact
+export default tryUs
