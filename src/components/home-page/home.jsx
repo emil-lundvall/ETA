@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './../../../src/css/component.css';
 import '../../scroll-it/scrollIt.js';
 import './../../css/home-page/home.css';
@@ -516,8 +516,8 @@ function home() {
                 </div>
             </div>
             <div className="home-background"></div>
-            <video className="home-video" loop autoPlay>
-                <source src={backgroundVideo} />
+            <video autoPlay muted loop className="home-video">
+                <source src={backgroundVideo} type="video/mp4" />
             </video>
         </div>
     )
