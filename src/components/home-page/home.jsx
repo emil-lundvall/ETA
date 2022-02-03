@@ -3,6 +3,7 @@ import './../../../src/css/component.css';
 import '../../scroll-it/scrollIt.js';
 import './../../css/home-page/home.css';
 import './../../particle-effect-globe/effect.scss'
+import backgroundVideo from './../../videos/background.mp4'
 
 function home() {
     return (
@@ -19,7 +20,7 @@ function home() {
                     </div>
                 </div>
                 <div className="home-right-container">
-                    <div className="wrap">
+                    <div className="wrap disable">
                             <div class='c'></div>
                             <div class='c'></div>
                             <div class='c'></div>
@@ -515,7 +516,9 @@ function home() {
                 </div>
             </div>
             <div className="home-background"></div>
-            <div className="home-video"></div>
+            <video className="home-video" loop autoPlay>
+                <source src={backgroundVideo} />
+            </video>
         </div>
     )
 }

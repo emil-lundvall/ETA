@@ -31,6 +31,14 @@ function whatWeDo() {
                         </div>
                     </div>
                 </div>
+                <div className="middle-container">
+                    <div className="mc-text-container">
+                        <div className="mc-title-container">
+                            <h1>Our Sevices<b>.</b></h1>
+                        </div>
+                        <p>We help and support brands by introducing and connecting them to esports and digital entertainment. Developing concepts, activities and events we create new avenues for marketing and promotion.</p>
+                    </div>
+                </div>
                 <div className="lower-container">
                     <div className="lower-grid-container">
                         <div className="lower-grid-item grid-item-hover">
