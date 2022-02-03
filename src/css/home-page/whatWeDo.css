@@ -90,7 +90,7 @@
 .lower-grid-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   grid-gap: 25px;
   grid-auto-flow: dense;
 }
@@ -103,6 +103,7 @@
   border-radius: 13px;
   transition: 0.8s;
   cursor: pointer;
+  min-height: 250px;
 }
 
 .lower-grid-item:hover {
@@ -117,13 +118,13 @@
 }
 
 .grid-item-row-2 h1 {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: bold;
   color: white;
 }
 
 .grid-item-row-3 p {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   color: #d8d8d8;
 }
