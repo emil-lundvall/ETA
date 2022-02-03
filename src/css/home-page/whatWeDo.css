@@ -10,7 +10,10 @@
 .upper-container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .upper-right-nav-bar ul {
@@ -38,15 +41,14 @@
 }
 
 .uc-text-container {
-  text-align: center;
 }
 
-.uc-text-container h1 {
+.uc-title-container h1 {
   color: white;
   font-size: 40px;
 }
 
-.uc-text-container h1 b {
+.uc-title-container h1 b {
   color: #1541d1;
 }
 
@@ -54,7 +56,7 @@
   font-size: 22px;
   font-weight: 500;
   color: #d8d8d8;
-  width: 800px;
+  width: 650px;
 }
 
 .uc-btn-container {
@@ -71,15 +73,42 @@
   cursor: pointer;
 }
 
+.middle-container {
+}
+
+.mc-text-container {
+}
+
+.mc-title-container {
+}
+
+.mc-title-container h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.mc-title-container h1 b {
+  color: #1541d1;
+}
+
+.mc-text-container p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #d8d8d8;
+  width: 650px;
+}
+
 .first-li {
   margin-left: 0 !important;
 }
 
 .lower-container {
   width: 100%;
+  min-width: 767px;
   display: flex;
   justify-content: center;
   margin-top: 5rem;
+  margin-bottom: 5%;
 }
 
 .upper-right-text-containers p {
@@ -90,7 +119,7 @@
 .lower-grid-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 25px;
   grid-auto-flow: dense;
 }
@@ -127,4 +156,18 @@
   font-size: 13px;
   font-weight: 400;
   color: #d8d8d8;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.info-container p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #d8d8d8;
+  padding-left: 5%;
+  padding-right: 5%;
 }

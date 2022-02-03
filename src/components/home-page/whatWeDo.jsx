@@ -24,19 +24,34 @@ function whatWeDo() {
             <div className="default-inner-section">
                 <div className="upper-container">
                     <div className="uc-text-container">
-                        <h1>Why E-Sports<b>?</b></h1>
+                        <div className="uc-title-container">
+                            <h1>Why E-Sports<b>?</b></h1>
+                        </div>
                         <p>With continuosly growing audiences and engaged fans esports follows the path of other growing global sports through history – and has already reached a higher level of commercialization.</p>
                         <div className="uc-btn-container">
                             <a className="read-more-btn">Read more ></a>
                         </div>
                     </div>
-                </div>
-                <div className="middle-container">
                     <div className="mc-text-container">
                         <div className="mc-title-container">
                             <h1>Our Sevices<b>.</b></h1>
                         </div>
                         <p>We help and support brands by introducing and connecting them to esports and digital entertainment. Developing concepts, activities and events we create new avenues for marketing and promotion.</p>
+                    </div>
+                    
+                </div>
+                <div className="info-section">
+                    <div className="info-container">
+                        <p>We have a deep understanding of creating and integrating marketing campaigns 
+                        in esports while retaining audience engagement in an organic and authentic way.
+                        We manage all aspects of a 360 campaign including analysis, strategy, programming, 
+                        content creation, promotions, 24/7 coverage & community moderation and
+                        revenue generation. We develop and implement strategies to boost your brand’s 
+                        influence and presence on any network; including gaming focused platforms such 
+                        as Instagram , Twitter, Youtube, TikTok and Twitch.
+                        We develop strategies and create concepts and activities to boost your brand’s 
+                        visibility and presence in order to;<br></br>
+                        Get more people to know your brand, like your brand and try or buy your brand.</p>
                     </div>
                 </div>
                 <div className="lower-container">
@@ -208,6 +223,7 @@ function whatWeDo() {
                         </div>
                     </div>
                 </div>
+            
             </div>
         </div>
     )
